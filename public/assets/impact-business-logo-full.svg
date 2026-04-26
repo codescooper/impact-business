@@ -1,0 +1,20 @@
+<svg width="700" height="180" viewBox="0 0 700 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b3d86"/>
+      <stop offset="1" stop-color="#051c49"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#d88900"/>
+      <stop offset="1" stop-color="#f0b127"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(8,8)">
+    <path d="M78 6 20 26v54c0 36 20 60 58 76 38-16 58-40 58-76V26L78 6Z" fill="url(#blue)"/>
+    <path d="M38 42h40c12 0 22 8 22 20s-10 20-22 20H56v28H38V42Zm38 44c7 0 12-5 12-12s-5-12-12-12H56v24h20Z" fill="white" opacity="0.96"/>
+    <path d="M8 112 90 30l56-14-14 56-82 82c-13 7-29-9-22-22Z" fill="url(#gold)"/>
+  </g>
+  <text x="180" y="84" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" fill="#0b3d86">IMPACT</text>
+  <text x="180" y="145" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="300" fill="#0b3d86">BUSINESS</text>
+  <text x="183" y="170" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#0b3d86">Votre succès est notre impact</text>
+</svg>
