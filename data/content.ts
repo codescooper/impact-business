@@ -1,65 +1,63 @@
 export const siteContent = {
+  brand: 'IMPACT BUSINESS',
   menu: ['Accueil', 'Services', 'Méthode', 'Impact', 'Contact'],
   hero: {
     title: 'Votre succès est notre impact.',
     subtitle: 'Confiez-nous votre innovation, nous la ferons grandir.',
     statement:
-      'Impact Business accompagne les nouvelles entreprises, les produits innovants et les nouveaux projets en combinant prospection terrain, communication digitale et stratégie commerciale.',
+      'Nous aidons les entreprises à trouver des clients grâce à la prospection terrain et au digital.',
     ctaPrimary: 'Demander un accompagnement',
-    ctaSecondary: 'Voir nos services',
-    equation: 'Terrain + Digital + Stratégie = Croissance',
+    ctaSecondary: 'Découvrir notre méthode',
   },
   problem: {
     title: 'Le vrai défi n’est pas d’exister. C’est de vendre.',
     description:
-      'Chaque jour, des projets solides peinent à décoller faute de visibilité commerciale, de méthode claire et d’actions terrain régulières.',
+      'Chaque jour, des projets ambitieux échouent non pas par manque de qualité, mais par manque de visibilité, de stratégie commerciale et de clients.',
   },
   services: [
     {
       title: 'Promotion de Nouvelles Entreprises',
       objective: 'Donnez vie à votre vision',
       description:
-        'Nous aidons les jeunes structures à gagner en visibilité, à se positionner clairement et à s’imposer sur leur marché.',
+        'Nous aidons les jeunes structures à gagner en visibilité et à s’imposer sur leur marché grâce à des actions concrètes et ciblées.',
     },
     {
       title: 'Lancement de Produits Innovants',
       objective: 'Capturez le marché dès le premier jour',
       description:
-        'Nous construisons des stratégies de lancement pour donner de la visibilité à vos nouveautés et générer vos premières opportunités commerciales.',
+        'Mise en place de stratégies commerciales et marketing pour assurer un lancement fort et visible.',
     },
     {
       title: 'Accompagnement de Nouveaux Projets',
       objective: 'Passez de l’idée à la réalité',
       description:
-        'Nous vous accompagnons de A à Z pour transformer vos concepts en projets concrets, visibles et rentables.',
+        'Un accompagnement structuré pour transformer vos concepts en activités concrètes et rentables.',
     },
   ],
   method: [
-    'Comprendre votre offre',
-    'Identifier votre cible',
-    'Activer le terrain et le digital',
-    'Suivre, ajuster et convertir',
+    'Analyse de votre offre',
+    'Identification de vos clients',
+    'Prospection terrain + visibilité digitale',
+    'Conversion et suivi client',
   ],
   differentiation: [
-    'Prospection terrain réelle',
-    'Communication digitale ciblée',
-    'Approche orientée résultats',
-    'Suivi commercial',
+    'Prospection réelle sur le terrain',
+    'Approche digitale moderne',
+    'Focus sur les résultats concrets',
+    'Méthode testée et optimisée',
     'Proximité avec les entrepreneurs',
   ],
   impact: {
-    title: 'Créer des opportunités, développer des entreprises.',
-    text: 'Impact Business veut devenir un moteur de croissance pour les entreprises africaines en leur donnant accès à une force commerciale moderne, humaine et efficace.',
+    title: 'Créer des opportunités, développer des entreprises',
+    text: 'Impact Business ambitionne de devenir un moteur de croissance pour les entreprises africaines en leur donnant accès à une force commerciale efficace et accessible.',
   },
   finalCta: {
-    title: 'Vous avez une innovation, un projet ou une entreprise à développer ?',
-    text: 'Contactez Impact Business et donnons ensemble plus de visibilité à votre ambition.',
+    title: 'Vous avez une idée ou un projet ?',
+    text: 'Nous vous aidons à trouver vos premiers clients et à développer votre activité.',
   },
   contact: {
-    phoneDisplay: '07 01 42 20 95',
-    phoneHref: 'tel:+2250701422095',
-    email: 'EMAIL_A_COMPLETER',
-    emailHref: 'mailto:EMAIL_A_COMPLETER',
+    phone: '07 01 42 20 95',
+    email: 'contact@impact-business.africa',
     whatsapp: 'https://wa.me/2250701422095',
   },
 };
