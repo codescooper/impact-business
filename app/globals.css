@@ -7,7 +7,7 @@
 }
 
 body {
-  @apply bg-slate-50 text-brand-ink antialiased;
+  @apply bg-slate-50 text-slate-900 antialiased;
 }
 
 .section-container {
@@ -15,9 +15,5 @@ body {
 }
 
 .glass-card {
-  @apply rounded-3xl border border-blue-100/60 bg-white/82 shadow-soft backdrop-blur-md;
-}
-
-.gold-line {
-  @apply h-[2px] w-20 bg-brand-gold;
+  @apply rounded-2xl border border-white/30 bg-white/70 shadow-soft backdrop-blur-md;
 }

@@ -5,18 +5,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'brand-blue': '#06377c',
-        'brand-navy': '#03193f',
-        'brand-gold': '#d79b21',
-        'brand-ink': '#081327',
+        night: '#081327',
         impact: '#00a86b',
+        gold: '#d4af37',
       },
       boxShadow: {
-        soft: '0 12px 35px rgba(3, 25, 63, 0.14)',
+        soft: '0 10px 30px rgba(8, 19, 39, 0.12)',
       },
       backgroundImage: {
-        mesh:
-          'radial-gradient(circle at 10% 15%, rgba(215, 155, 33, 0.18), transparent 30%), radial-gradient(circle at 90% 0%, rgba(6, 55, 124, 0.18), transparent 35%), linear-gradient(140deg, #f6f9ff 0%, #ffffff 35%, #edf4ff 100%)',
+        grain:
+          'radial-gradient(circle at 10% 20%, rgba(212, 175, 55, 0.15), transparent 30%), radial-gradient(circle at 90% 0%, rgba(0, 168, 107, 0.2), transparent 45%)',
       },
     },
   },

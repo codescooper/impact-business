@@ -1,16 +1,15 @@
 'use client';
 
-import { LogoMark } from '@/components/logo-mark';
 import { siteContent } from '@/data/content';
 
 export function Header() {
   const anchors = ['#accueil', '#services', '#methode', '#impact', '#contact'];
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/40 bg-white/75 backdrop-blur-xl">
-      <div className="section-container flex h-20 items-center justify-between gap-4">
-        <a href="#accueil" className="shrink-0">
-          <LogoMark compact />
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/20 bg-night/90 backdrop-blur-xl">
+      <div className="section-container flex h-16 items-center justify-between">
+        <a href="#accueil" className="text-sm font-bold tracking-[0.2em] text-white">
+          {siteContent.brand}
         </a>
 
         <nav className="hidden gap-6 md:flex">
@@ -18,7 +17,7 @@ export function Header() {
             <a
               key={item}
               href={anchors[index]}
-              className="text-sm font-semibold text-brand-blue/90 transition hover:text-brand-gold"
+              className="text-sm text-white/85 transition hover:text-gold"
             >
               {item}
             </a>
@@ -27,7 +26,7 @@ export function Header() {
 
         <a
           href="#contact"
-          className="rounded-full bg-brand-blue px-4 py-2 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-brand-navy"
+          className="rounded-full bg-impact px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-500"
         >
           Nous contacter
         </a>
